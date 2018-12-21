@@ -12,11 +12,9 @@ import javafx.scene.layout.VBox;
 
 public class ButtonChooserPanel extends VBox implements EventHandler<ActionEvent>{
 	private View view; // So we can talk to our parent or other components of the view
-	private Button previousButton; 
-
 
 	/**
-	 * Constructs a ShapeChooserPanel with their corresponding button and image
+	 * Constructs a ButtonChooserPanel with their corresponding button and image
 	 * @param view
 	 */
 	public ButtonChooserPanel(View view) {
@@ -46,7 +44,7 @@ public class ButtonChooserPanel extends VBox implements EventHandler<ActionEvent
 	}
 
 	/**
-	 * handler to handle the ActionEvent for a button in ShapeChooserPanel
+	 * handler to handle the ActionEvent for a button in ButtonChooserPanel
 	 */
 	@Override
 	public void handle(ActionEvent event) {
