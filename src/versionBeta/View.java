@@ -44,7 +44,13 @@ public class View implements EventHandler<ActionEvent>{
 
 		// BorderPane root = new BorderPane();
 		root = new BorderPane();
+		ButtonChooserPanel leftNode = new ButtonChooserPanel(this);
+		CenterPanel centerNode = new CenterPanel(this.model);
+		
+		root.setLeft(leftNode);
+		root.setCenter(centerNode);
 		root.setTop(createMenuBar());
+		
 
 		primary = new Scene(root);
 		stage.setScene(primary);
