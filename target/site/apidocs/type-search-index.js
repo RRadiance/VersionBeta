@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"versionBeta","l":"ButtonChooserPanel"},{"p":"versionBeta","l":"CenterPanel"},{"p":"versionBeta","l":"MainPanel"},{"p":"versionBeta","l":"Model"},{"p":"versionBeta","l":"Start"},{"p":"versionBeta","l":"View"}]
